@@ -1,3 +1,17 @@
-print("This is my first push on github")
+def addition(arg1,arg2):
+    y=arg1+arg2
+    return y
 
-print(50+1)
+
+
+def addition(arg1,arg2):
+    y=arg1+arg2
+    assert y==30
+    print("The test has passed")
+    
+x=int(input("Enter a number: "))
+y=int(input("Enter  a number: "))
+addition(x,y)
+
+
+
